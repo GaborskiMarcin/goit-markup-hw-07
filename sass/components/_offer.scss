@@ -1,17 +1,24 @@
-.what-we-do {
+.offer {
+  // width: 1200px;
+  // z-index: 1;
   display: flex;
-  z-index: 1;
-
+&__container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
   &__h2 {
     display: flex;
     flex-direction: column;
+    align-items: center;
     font-size: 36px;
-    padding: 0 0 50px 425px;
+    padding-bottom: 50px;
   }
 }
 .photo-list {
   display: flex;
   padding-bottom: 94px;
+  justify-content: center;
 
   &__element {
     position: relative;
